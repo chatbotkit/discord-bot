@@ -14,11 +14,17 @@ Second, you will need to setup your discord application. Go to [Discord Develope
 
 > Please remember to invite your Discord Bot the server you want the bot to be active
 
-## Environment Variables
+## Installation & Environment Variables
 
-1. Create a file called `.env`
+1. Install the dependancies by running
 
-2. Add your [CHATBOTKIT_API_KEY](https://chatbotkit.com/tokens), [BOT_TOKEN](https://discord.com/developers/applications) like this:
+```bash
+npm install
+```
+
+2. Create a file called `.env`
+
+3. Add your [CHATBOTKIT_API_KEY](https://chatbotkit.com/tokens), [BOT_TOKEN](https://discord.com/developers/applications) like this:
 
 ```
 CHATBOTKIT_API_KEY=<YOUR TOKEN HERE>
